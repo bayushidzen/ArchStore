@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArchStore", "ArchStore.cspr
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Fabric", "Fabric", "{A0DC483B-28FC-4A1E-8DCE-135EA48026FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fabric", "..\Fabric\Fabric\Fabric.csproj", "{0DBB4092-179A-4147-B094-17F33C88E19D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fabric", "..\Fabric\Fabric\Fabric.csproj", "{0DBB4092-179A-4147-B094-17F33C88E19D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOLID", "..\SOLID\SOLID.csproj", "{BA02150D-DD30-4492-BBD4-2ADDB2189ABB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +25,10 @@ Global
 		{0DBB4092-179A-4147-B094-17F33C88E19D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0DBB4092-179A-4147-B094-17F33C88E19D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0DBB4092-179A-4147-B094-17F33C88E19D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA02150D-DD30-4492-BBD4-2ADDB2189ABB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA02150D-DD30-4492-BBD4-2ADDB2189ABB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA02150D-DD30-4492-BBD4-2ADDB2189ABB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA02150D-DD30-4492-BBD4-2ADDB2189ABB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

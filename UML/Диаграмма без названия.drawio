@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-13T18:48:48.818Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 OPR/106.0.0.0 (Edition Yx 05)" etag="YmkOfwsCoR4ipw7CZmLi" version="23.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-13T19:19:16.251Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 OPR/106.0.0.0 (Edition Yx 05)" etag="XmozD1myOPuflFXD71ZO" version="23.1.2" type="github">
   <diagram name="Страница — 1" id="Fu36fv03LQxThLSLdEEK">
     <mxGraphModel dx="2072" dy="1122" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
@@ -8,7 +8,7 @@
           <mxGeometry x="420" y="360" width="280" height="170" as="geometry" />
         </mxCell>
         <mxCell id="EQ4r3sX3pM-trkC5-rVK-4" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;Ticket&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;- rootNumber: int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;- price: int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;- dateStart: DateTime&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;- dateEnd: DateTime&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;- place: int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;- isValid: bool&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="714" y="90" width="160" height="130" as="geometry" />
+          <mxGeometry x="820" y="230" width="160" height="130" as="geometry" />
         </mxCell>
         <mxCell id="EQ4r3sX3pM-trkC5-rVK-5" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;TicketProvider&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ getTickets(rootNumber: int, Tickets[] tickets):Tickets[0..1]&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+updateTicketStatus(Ticket ticket): bool&amp;nbsp;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="990" y="400" width="190" height="120" as="geometry" />
@@ -21,7 +21,7 @@
             <mxPoint x="1080" y="390" as="sourcePoint" />
             <mxPoint x="880" y="150" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1080" y="150" />
+              <mxPoint x="1085" y="289" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -39,7 +39,7 @@
             <mxPoint x="710" y="190" as="sourcePoint" />
             <mxPoint x="620" y="230" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="580" y="100" />
+              <mxPoint x="580" y="240" />
             </Array>
           </mxGeometry>
         </mxCell>
